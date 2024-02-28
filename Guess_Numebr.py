@@ -1,10 +1,10 @@
 import random
 
-real_number = random.randint(0, 100)
+real_number = random.randint(1, 100)
 
 while True:
     try:
-         guess_number = int(input("შეიყვანეთ რიცხვი 0-დან 100-მდე: "))
+         guess_number = int(input("შეიყვანეთ რიცხვი 1-დან 100-მდე: "))
          if guess_number == real_number:
               print(f"გილოცავთ, თქვენ გამოიცანით რიცხვი {real_number}")
               break
